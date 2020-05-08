@@ -1,0 +1,11 @@
+/* Code tidied up by ScrapBook */
+body .single-soc-share-link a { color: rgba(0, 0, 0, 0.5); margin: 6px 0px; transition: color 0.3s ease 0s; }
+.single-soc-share-link [href*="facebook"]:hover, .single-soc-share-link [href*="facebook"]:hover .counter { color: rgb(66, 85, 150); }
+.single-soc-share-link [href*="twitter"]:hover, .single-soc-share-link [href*="twitter"]:hover .counter { color: rgb(74, 168, 223); }
+.single-soc-share-link [href*="google"]:hover, .single-soc-share-link [href*="google"]:hover .counter { color: rgb(222, 72, 57); }
+.single-soc-share-link [href*="pinterest"]:hover, .single-soc-share-link [href*="pinterest"]:hover .counter { color: rgb(233, 52, 58); }
+.single-soc-share-link [href*="stumbleupon"]:hover, .single-soc-share-link [href*="stumbleupon"]:hover .counter { color: rgb(64, 64, 64); }
+.single-soc-share-link [class^="icon-"], .single-soc-share-link [class*=" icon-"], .single-soc-share-link [class^="icon-"]::before, .single-soc-share-link [class*=" icon-"]::before { font-size: 20px !important; }
+.icons .single-soc-share-link { margin-right: 18px; }
+.icons .single-soc-share-link:last-child { margin-right: 0px; }
+.icons .single-soc-share-link span:not(.counter), .text .single-soc-share-link i { display: none; }
