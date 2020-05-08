@@ -1,0 +1,21 @@
+/* Code tidied up by ScrapBook */
+@font-face {
+  font-family: "icomoon";
+  font-style: normal;
+  font-weight: normal;
+  src: url("icomoon.eot") format("embedded-opentype"), url("icomoon_001.woff") format("woff"), url("icomoon.ttf") format("truetype"), url("icomoon.svg") format("svg");
+}
+.single-soc-share-link [class^="icon-"], .single-soc-share-link [class*=" icon-"] { background-image: none; font-family: "icomoon"; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; vertical-align: baseline; width: auto; height: auto; -moz-osx-font-smoothing: grayscale; }
+.single-soc-share-link .icon-facebook::before { content: ""; }
+.single-soc-share-link .icon-google::before { content: ""; }
+.single-soc-share-link .icon-pinterest::before { content: ""; }
+.single-soc-share-link .icon-stumbleupon::before { content: ""; }
+.single-soc-share-link .icon-twitter::before { content: ""; }
+.tkss-post-share { margin: 30px 0px; }
+.clear::before, .clear::after, .tkss-post-share::before, .tkss-post-share::after { content: ""; display: table; }
+.clear::after, .tkss-post-share::after { clear: both; }
+.post .tkss-post-share > h6 { display: block; font-size: 25px !important; margin-bottom: 16px; margin-top: 0px; }
+.share-total-count, .single-soc-share-link { display: inline-block; }
+.single-soc-share-link { vertical-align: middle; font-size: 0px; }
+.tkss-post-share .single-soc-share-link a { white-space: nowrap; }
+.tkss-post-share .single-soc-share-link a, .tkss-post-share .single-soc-share-link a:hover { display: block; text-decoration: none; border-bottom: medium none; }
